@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - Daejuan gunshop</title>
+    <title>Daejuan gunshop</title>
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,18 +20,49 @@
         <a href="#">Home</a>
         <a href="#about">About</a>
         <a href="#menu">Menu</a>
+        <a href="#products">Pembelian</a>
         <a href="kontak.html">Contact</a>
       </div>
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here" />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <div class="shopping-cart">
+        <div class="cart-items">
+          <img src="img/colt 1911.jpg" alt="product1">
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">$865</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-items">
+          <img src="img/colt 1911.jpg" alt="product1">
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">$865</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-items">
+          <img src="img/colt 1911.jpg" alt="product1">
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">$865</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
       </div>
     </nav>
     <section class="hero" id="home">
       <main class="content">
         <h1>Anda mencari senjata? beli lah disini</h1>
-        <a href="#" class="cta">Beli disini</a>
+        <a href="#menu" class="cta">Beli disini</a>
       </main>
     </section>
     <section id="about" class="about">
@@ -52,36 +83,67 @@
       <div class="row">
         <div class="menu-card">
           <img src="img/colt 1911.jpg" alt="DE" class="menu-card-img" />
-          <h3 class="menu-card-title">- Colt 1911 -</h3>
+          <h3 class="menu-card-title">Colt 1911</h3>
           <p class="menu-card-price">$865</p>
         </div>
         <div class="menu-card">
           <img src="img/glock 19.jpg" alt="DE" class="menu-card-img" />
-          <h3 class="menu-card-title">- Glock 19 -</h3>
+          <h3 class="menu-card-title">Glock 19</h3>
           <p class="menu-card-price">$700</p>
         </div>
         <div class="menu-card">
           <img src="img/DE.jpg" alt="DE" class="menu-card-img" />
-          <h3 class="menu-card-title">- Desert Eagle -</h3>
+          <h3 class="menu-card-title">Desert Eagle</h3>
           <p class="menu-card-price">$2.599</p>
         </div>
-        <div class="menu-card">
-          <img src="img/colt 1911.jpg" alt="DE" class="menu-card-img" />
-          <h3 class="menu-card-title">- Colt 1911 -</h3>
-          <p class="menu-card-price">$865</p>
+    </section>
+
+    <section class="products" id="products">
+      <h2>Pembelian</h2>
+      <p>bagian pembelian</p>
+
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/DE.jpg" alt="">
+          </div>
+          <div div class="product-content">
+            <h3>Colt 1911</h3>
+          </div>
+           <div class="product-price">$865</div>
         </div>
-        <div class="menu-card">
-          <img src="img/colt 1911.jpg" alt="DE" class="menu-card-img" />
-          <h3 class="menu-card-title">- Colt 1911 -</h3>
-          <p class="menu-card-price">$$865</p>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/glock 19.jpg" alt="">
+          </div>
+          <div div class="product-content">
+            <h3>Glock 19</h3>
+          </div>
+           <div class="product-price">$700</div>
         </div>
-        <div class="menu-card">
-          <img src="img/colt 1911.jpg" alt="DE" class="menu-card-img" />
-          <h3 class="menu-card-title">- Colt 1911 -</h3>
-          <p class="menu-card-price">$865</p>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/colt 1911.jpg" alt="">
+          </div>
+          <div div class="product-content">
+            <h3>Desert Eagle</h3>
+          </div>
+           <div class="product-price">$2.599</div>
         </div>
       </div>
     </section>
+
     <footer>
       <div class="socials">
         <a href="https://www.instagram.com/aghiefaezyp"
@@ -103,7 +165,6 @@
         </p>
       </div>
     </footer>
-
     <script>
       feather.replace();
     </script>
