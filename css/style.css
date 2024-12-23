@@ -13,9 +13,14 @@
 }
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 body {
+  overflow-x: hidden;
   font-family: "Gabriela", serif;
   background-color: var(--bg);
   color: white;
@@ -114,8 +119,8 @@ body {
 .shopping-cart {
   position: absolute;
   top: 100%;
-  right: -100%;
-  height: 100v;
+  right: -200%;
+  height: 100vh;
   width: 35rem;
   padding: 0 1.5rem;
   background-color: white;
@@ -288,7 +293,7 @@ body {
 .products .product-card{
   text-align: center;
   border: 1px solid red;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .products .product-icons{
